@@ -1,0 +1,9 @@
+sample_name,image_processed,tissue_percentage,epithelial_percentage,smooth_muscle_percentage,lymphocyte_percentage,myeloid_percentage,spots_mapped,segmentation_path,visualization_path
+TMA_1-2,tissue_hires_image.png,0.0,0,0,0,0,0,visium_results/TMA_1-2/TMA_1-2_segmentation.png,visium_results/TMA_1-2/TMA_1-2_segmentation_vis.png
+TMA_11-12,tissue_hires_image.png,0.0,0,0,0,0,0,visium_results/TMA_11-12/TMA_11-12_segmentation.png,visium_results/TMA_11-12/TMA_11-12_segmentation_vis.png
+TMA_7-8,tissue_hires_image.png,0.0,0,0,0,0,0,visium_results/TMA_7-8/TMA_7-8_segmentation.png,visium_results/TMA_7-8/TMA_7-8_segmentation_vis.png
+TMA_13-14,tissue_hires_image.png,0.0,0,0,0,0,0,visium_results/TMA_13-14/TMA_13-14_segmentation.png,visium_results/TMA_13-14/TMA_13-14_segmentation_vis.png
+TMA_15-16,tissue_hires_image.png,0.0,0,0,0,0,0,visium_results/TMA_15-16/TMA_15-16_segmentation.png,visium_results/TMA_15-16/TMA_15-16_segmentation_vis.png
+TMA_5-6,tissue_hires_image.png,0.0,0,0,0,0,0,visium_results/TMA_5-6/TMA_5-6_segmentation.png,visium_results/TMA_5-6/TMA_5-6_segmentation_vis.png
+TMA_3-4,tissue_hires_image.png,0.0,0,0,0,0,0,visium_results/TMA_3-4/TMA_3-4_segmentation.png,visium_results/TMA_3-4/TMA_3-4_segmentation_vis.png
+TMA_9-10,tissue_hires_image.png,0.0,0,0,0,0,0,visium_results/TMA_9-10/TMA_9-10_segmentation.png,visium_results/TMA_9-10/TMA_9-10_segmentation_vis.png

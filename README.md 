@@ -1,0 +1,68 @@
+# Spatial Transcriptomics Data Retrieval Guide
+
+## Overview
+This repository contains spatial transcriptomics image data for multiple TMA (Tissue Microarray) datasets. The data is stored on the `cbsulaughney02` cluster and can be transferred to a local machine using `rsync`.
+
+## **1. Accessing the Cluster**
+To access the cluster, use:
+```bash
+ssh diz4009@cbsulaughney02
+
+Ensure you have the correct SSH permissions.
+
+2. Data Directory Structure
+
+The data is stored on the cluster under:
+
+/workdir/diz4009/data/YYYY_MM_DD/TMA_X-Y/outs/spatial/
+
+Where:
+	•	YYYY_MM_DD refers to the acquisition date (e.g., 2024_06_12, 2024_07_16).
+	•	TMA_X-Y represents the TMA dataset (e.g., TMA_1-2, TMA_3-4, etc.).
+	•	outs/spatial/ contains the imaging data.
+
+3. Downloading Data
+
+To copy a dataset from the cluster to your local machine, use the following rsync command:
+
+rsync -avz --exclude=".ipynb_checkpoints/" \
+diz4009@cbsulaughney02:/workdir/diz4009/data/YYYY_MM_DD/TMA_X-Y/outs/spatial/ \
+"/Users/dianyuejosefzhu/Desktop/Machine Learning with Images/Project/TMA_X-Y"
+
+For example, to download TMA_1-2:
+
+rsync -avz --exclude=".ipynb_checkpoints/" \
+diz4009@cbsulaughney02:/workdir/diz4009/data/2024_06_12/TMA_1-2/outs/spatial/ \
+"/Users/dianyuejosefzhu/Desktop/Machine Learning with Images/Project/TMA_1-2"
+
+4. Downloading All Datasets
+
+If you want to download all datasets, run:
+
+for TMA in TMA_1-2 TMA_3-4 TMA_5-6 TMA_7-8 TMA_9-10 TMA_11-12 TMA_13-14 TMA_15-16; do
+    rsync -avz --exclude=".ipynb_checkpoints/" \
+    diz4009@cbsulaughney02:/workdir/diz4009/data/2024_06_12/$TMA/outs/spatial/ \
+    "/Users/dianyuejosefzhu/Desktop/Machine Learning with Images/Project/$TMA"
+done
+
+5. Verifying Data Transfer
+
+After the transfer, check the files:
+
+ls -lh "/Users/dianyuejosefzhu/Desktop/Machine Learning with Images/Project/TMA_1-2"
+
+Replace TMA_1-2 with the dataset you want to verify.
+
+6. Troubleshooting
+	•	If you encounter permission errors, ensure you have read access on the cluster.
+	•	If the transfer is interrupted, resume it by re-running the rsync command.
+
+7. Additional Notes
+	•	The data includes spatial transcriptomics images such as:
+	•	aligned_fiducials.jpg
+	•	aligned_tissue_image.jpg
+	•	cytassist_image.tiff
+	•	detected_tissue_image.jpg
+	•	tissue_hires_image.png
+	•	tissue_lowres_image.png
+	•	.ipynb_checkpoints/ files are excluded to avoid permission errors.
