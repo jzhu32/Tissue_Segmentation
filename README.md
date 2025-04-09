@@ -49,7 +49,6 @@ Comparison of morphology-based cell type predictions (using CellViT++) with spat
 
 1. **Preprocessing and Filtering**: 
    - [01_segmentation_sample.ipynb](SegPath/src/01_segmentation_sample.ipynb)
-   - [Open in Google Colab](https://colab.research.google.com/drive/PLACEHOLDER_LINK)
 
 2. **Initial Training Implementation**: 
    - [Train_Segmentation.ipynb](SegPath/src/Train_Segmentation.ipynb)
