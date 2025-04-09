@@ -2,5 +2,7 @@ SegPath/src/Archive/data_preprocessing.html filter=lfs diff=lfs merge=lfs -text
 SegPath/src/Train_Segmentation.ipynb filter=lfs diff=lfs merge=lfs -text
 SegPath/src/Train_Segmentation_v2.ipynb filter=lfs diff=lfs merge=lfs -text
 SegPath/Train_Segmentation_v2.ipynb filter=lfs diff=lfs merge=lfs -text
+CellViT/results_svs/**/*.json filter=lfs diff=lfs merge=lfs -text
+CellViT/results_svs/**/*.geojson filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
 *.geojson filter=lfs diff=lfs merge=lfs -text
