@@ -1,0 +1,329 @@
+{
+  "version": "0.5.1",
+  "createTimestamp": 1743736691340,
+  "modifyTimestamp": 1743736691340,
+  "uri": "file:/Users/dianyuejosefzhu/Gmail%20Normal/CellVIT/qupath/project.qpproj",
+  "lastID": 4,
+  "images": [
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/dianyuejosefzhu/Gmail%20Normal/CellVIT/H\u0026E_Svs/ss12084_1_1_090448.svs",
+        "args": [
+          "--series",
+          "0"
+        ],
+        "metadata": {
+          "name": "ss12084_1_1_090448.svs",
+          "width": 61809,
+          "height": 65582,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 61809,
+              "height": 65582
+            },
+            {
+              "downsample": 4.0,
+              "width": 15452,
+              "height": 16395
+            },
+            {
+              "downsample": 16.0,
+              "width": 3863,
+              "height": 4098
+            },
+            {
+              "downsample": 60.7499426417568,
+              "width": 1017,
+              "height": 1080
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.262788,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.262788,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 40.0,
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 256
+        }
+      },
+      "entryID": 1,
+      "randomizedName": "e9f03bf9-77cd-4cb3-bfdd-29494c53ece4",
+      "imageName": "ss12084_1_1_090448.svs",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/dianyuejosefzhu/Gmail%20Normal/CellVIT/H\u0026E_Svs/ss12084_1_2_090548.svs",
+        "args": [
+          "--series",
+          "0"
+        ],
+        "metadata": {
+          "name": "ss12084_1_2_090548.svs",
+          "width": 53866,
+          "height": 54461,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 53866,
+              "height": 54461
+            },
+            {
+              "downsample": 4.0,
+              "width": 13466,
+              "height": 13615
+            },
+            {
+              "downsample": 16.0,
+              "width": 3366,
+              "height": 3403
+            },
+            {
+              "downsample": 50.43159071993341,
+              "width": 1068,
+              "height": 1080
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.262788,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.262788,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 40.0,
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 256
+        }
+      },
+      "entryID": 2,
+      "randomizedName": "0804783a-5d27-4c17-bae7-6769caa2ecba",
+      "imageName": "ss12084_1_2_090548.svs",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/dianyuejosefzhu/Gmail%20Normal/CellVIT/H\u0026E_Svs/ss12084_1_3_090657.svs",
+        "args": [
+          "--series",
+          "0"
+        ],
+        "metadata": {
+          "name": "ss12084_1_3_090657.svs",
+          "width": 60816,
+          "height": 64589,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 60816,
+              "height": 64589
+            },
+            {
+              "downsample": 4.0,
+              "width": 15204,
+              "height": 16147
+            },
+            {
+              "downsample": 16.0,
+              "width": 3801,
+              "height": 4036
+            },
+            {
+              "downsample": 59.831448673082534,
+              "width": 1016,
+              "height": 1080
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.262788,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.262788,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 40.0,
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 256
+        }
+      },
+      "entryID": 3,
+      "randomizedName": "f9734a39-525f-40d6-9d50-7228635977c3",
+      "imageName": "ss12084_1_3_090657.svs",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/dianyuejosefzhu/Gmail%20Normal/CellVIT/H\u0026E_Svs/ss12084_1_5_090909.svs",
+        "args": [
+          "--series",
+          "0"
+        ],
+        "metadata": {
+          "name": "ss12084_1_5_090909.svs",
+          "width": 61015,
+          "height": 61015,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 61015,
+              "height": 61015
+            },
+            {
+              "downsample": 4.0,
+              "width": 15253,
+              "height": 15253
+            },
+            {
+              "downsample": 16.0,
+              "width": 3813,
+              "height": 3813
+            },
+            {
+              "downsample": 31.778645833333332,
+              "width": 1920,
+              "height": 1920
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.262788,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.262788,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "magnification": 40.0,
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 256
+        }
+      },
+      "entryID": 4,
+      "randomizedName": "8bbf2f64-c4c2-48ee-8570-ca13be85faf1",
+      "imageName": "ss12084_1_5_090909.svs",
+      "metadata": {}
+    }
+  ]
+}
