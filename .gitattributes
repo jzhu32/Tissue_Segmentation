@@ -14,3 +14,4 @@ CellViT/results_svs/ss12084_1_5_090909/ss12084_1_5_090909/cells.json filter=lfs 
 CellViT/results_svs/ss12084_1_5_090909/ss12084_1_5_090909/cells.geojson filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
 *.geojson filter=lfs diff=lfs merge=lfs -text
+*.ipynb filter=lfs diff=lfs merge=lfs -text
